@@ -51,6 +51,7 @@ RUN apt-get update && \
                         libvlc-dev libvlccore-dev \
                         libgstreamer-plugins-base1.0-dev \
                         xsltproc \
+                        qtbase5-private-dev \
                         libnm-glib-dev modemmanager-dev && \
     useradd -d /home/kdedev -m kdedev && \
     mkdir /work /qt && \
